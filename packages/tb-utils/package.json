@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "publishConfig": {
+    "registry": "https://tenderboard-607217493821.d.codeartifact.ap-southeast-1.amazonaws.com/npm/tenderboard/"
   }
 }

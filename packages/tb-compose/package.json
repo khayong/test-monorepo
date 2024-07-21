@@ -2,5 +2,8 @@
   "name": "@tb/compose",
   "version": "1.0.3",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://tenderboard-607217493821.d.codeartifact.ap-southeast-1.amazonaws.com/npm/tenderboard/"
+  }
 }
