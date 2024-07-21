@@ -1,0 +1,16 @@
+{
+  "name": "test-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "cd packages/middleware && node run.js"
+  },
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
